@@ -5,6 +5,15 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background: linear-gradient(180deg, #a1c4fd, #c2e9fb);
+}
+
+.backgroundContainer {
+  background-image: url("./images/dalle-dude.png"), url("./images/Vector.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center top, left bottom;
+  background-size: contain, contain;
+  padding: 6rem;
 }
 
 .description {
@@ -97,7 +106,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
